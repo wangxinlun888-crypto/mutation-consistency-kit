@@ -1,0 +1,4 @@
+include README.md RELEASE_NOTES.md THIRD_PARTY_NOTICES.md COMPARISON.md LICENSE
+include docs/API.md docs/ARCHITECTURE.md docs/INSTALL.md docs/TEST_RESULTS.md
+include tests/__init__.py tests/test_consistency.py
+include examples/recovery_journey.py

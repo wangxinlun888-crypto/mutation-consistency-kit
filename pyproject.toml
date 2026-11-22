@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mutation-consistency-kit"
+version = "0.1.1"
+description = "Version-checked JSON document replacement with recoverable local SQLite receipts"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+
+[tool.setuptools]
+packages = ["mutation_consistency_kit"]
+include-package-data = false
